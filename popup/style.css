@@ -1,0 +1,69 @@
+body {
+	height: 500px;
+	width: 350px;
+	margin: 0px;
+}
+
+.header {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.btn-div button {
+  border: 0px;
+  background-color: #ffe4c4;
+  font-size: 14px;
+  width: 47%;
+  height: 35px;
+  margin: 0px 1%;
+  padding: 0px;
+}
+
+.btn-div button:hover {
+  cursor: pointer;
+}
+
+.connected-text {
+  display: none;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+#connected-number, #all-profiles-number {
+  color: #6495ed;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.results {
+  margin: 8px;
+}
+
+.profile-bio {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid #ffe4c4;
+}
+
+.profile-bio:hover {
+  box-shadow: 0px 0px 4px 1px #e6c8c8;
+}
+
+
+.profile-image {
+  width: 120px;
+  height: auto;
+}
+
+.profile-bio-div p {
+  margin: 6px 0px;
+}
+
+.profile-name {
+  font-size: 14px;
+  font-weight: 600;
+}
